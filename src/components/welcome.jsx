@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className="welcome-wrapper">
       <div className="welcome-box">
-        <h1>Hello, I am Deva</h1>
+        <h1>Hello, I am Devadharshini</h1>
         <p>Current time: {currentTime}</p>
       </div>
     </div>
