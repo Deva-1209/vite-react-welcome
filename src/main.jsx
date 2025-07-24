@@ -1,10 +1,11 @@
+// src/main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App2 from './App2.jsx'; // ✅ This must match your file name and export
+import Apppages from './Apppages.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App2 />
+    <Apppages />
   </React.StrictMode>
 );
