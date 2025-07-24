@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App1 from './App1.jsx'; // ✅ This must match your file name and export
+import App2 from './App2.jsx'; // ✅ This must match your file name and export
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App1 />
+    <App2 />
   </React.StrictMode>
 );
