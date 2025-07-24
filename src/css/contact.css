@@ -1,0 +1,56 @@
+.contact-form {
+  width: 320px;
+  margin: 20px auto;
+  padding: 24px;
+  background: #e6f4ea; /* Pale green background */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #2e7d32; /* Dark green font */
+}
+
+.contact-form h2 {
+  margin: 0 0 8px;
+  text-align: center;
+  color: #2e7d32; /* Match green theme */
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  border: 1px solid #81c784; /* Light green border */
+  border-radius: 6px;
+  font-size: 14px;
+  color: #2e7d32; /* Input text in green */
+  background-color: #f1fdf4; /* Light greenish input bg */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #43a047;
+  box-shadow: 0 0 0 2px rgba(67, 160, 71, 0.2);
+}
+
+.contact-form button {
+  background-color: #43a047; /* Green button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #2e7d32;
+}
