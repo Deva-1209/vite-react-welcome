@@ -65,7 +65,7 @@ const App = () => {
 
 export default App;*/
 
-import React from 'react';
+/*import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
@@ -90,5 +90,21 @@ const App = () => {
   );
 };
 
+export default App;*/
+
+
+import React from 'react';
+import Counter from './components/Counter'; 
+
+function App() {
+  return (
+    <div>
+      <h1 style={{ textAlign: 'center', marginTop: '50px' }}>Welcome to the Counter App</h1>
+      <Counter />
+    </div>
+  );
+}
+
 export default App;
+
 
