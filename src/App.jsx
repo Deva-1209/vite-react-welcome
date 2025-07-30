@@ -93,7 +93,7 @@ const App = () => {
 export default App;*/
 
 
-import React from 'react';
+/*import React from 'react';
 import Counter from './components/Counter'; 
 
 function App() {
@@ -105,6 +105,24 @@ function App() {
   );
 }
 
+export default App;*/
+
+
+
+import FeedbackForm from './components/feedbackForm';
+import FeedbackList from './components/FeedbackList';
+
+function App() {
+  return (
+    <>
+      <h1>Feedback Box</h1>
+      <FeedbackForm />
+      <FeedbackList />
+    </>
+  );
+}
+
 export default App;
+
 
 
